@@ -58,17 +58,32 @@ p {
 h1.new-h1 {
 	color: white;
 }
+h2.h2ContactGreeting {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: .035em;
+	line-height: 55px;
+	text-shadow: 2px 2px 2px rgb(5, 40, 40);
+}
 h2.h2Contact {
 	text-align: center;
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: 200;
-	letter-spacing: .035em;
+	letter-spacing: .05em;
 }
 h2.company {
 	text-align: center;
 	font-size: 20px;
 	font-weight: 200;
 	letter-spacing: .035em;
+}
+h2.description {
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 23px;
+	letter-spacing: .05em;
+
 }
 h4.subtitle {
 	font-size: 16px;
@@ -285,14 +300,17 @@ h6 {
 	margin: 0 auto;
 }
 .content {
+	font-size: 14px;
 	border: solid 1px;
-	width: 25%;
-	margin: 5% auto;
+	width: 17%;
+	height: 10%;
+	margin: 10% 5% 10% 5%;
 	border-color: #fff;
-	display: block;
+	display: inline-block;
 	position: relative;
-	padding: 70px 25px 70px 25px;
+	padding: 20px;
 	text-align: center;
+	color: #fff;
 }
 
 @media (max-width: 940px) {
@@ -303,8 +321,8 @@ h6 {
 }
 @media (max-width: 590px) {
 	.button {
-		margin: 5px 5px 60px 5px;
-		padding: 10px;
+		margin: 5px 5px 5px 5px;
+		padding: 2px;
 	}
 }
 
