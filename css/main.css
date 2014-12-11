@@ -155,7 +155,7 @@ p.padding-top {
 	padding-top: 11px;
 }
 section#about {
-	background: skyblue url(../images/img_trees.jpg) no-repeat;
+	background: grey url(../images/img_trees.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
