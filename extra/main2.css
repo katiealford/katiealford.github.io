@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+	font: 16px/1.5 Raleway, Helvetica, sans-serif;
+}
+
+section {
+	width: 100%;
+	height: 800px;
+	background-color: blue;
+	position: relative;
+	overflow: hidden;
+}
+section:nth-child(n+2) {
+	box-shadow:0 7px 6px -6px rgba(0,0,0,.5) inset;
+}
+section:nth-child(2n+1) {
+	background-color: orange
+	/*delete once background photos are placed*/
+}
+section#home {
+	background: skyblue url(../images/img_tam.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+#container-left {
+	position: absolute;
+	left: 36%;
+	padding: 15px;
+	margin: 55px 10px 10px 10px;
+}
+#container-mid {
+	position: absolute;
+	left: 55%;
+	padding: 15px;
+	margin: 55px 10px 10px 10px;
+}
+#container-right {
+	position: absolute;
+	left: 72%;
+	padding: 15px;
+	margin: 55px 10px 10px 10px;
+}
+h1.button {
+	color: black;
+	font-weight: 100;
+	font-size: 22px;
+	text-align: center;
+}
+h1.button .about-button {
+	background-color: white;
+	padding: 30px;
+	float: right;
+	margin-bottom: 25px;
+	width: 40%;
+}
+h1.button .graphic-button {
+	background-color: white;
+	padding: 60px;	
+	float: right;
+	width: 80%;
+}
+h1.button .paint-button {
+	background-color: white;
+	padding: 60px;
+	float: right;
+	margin-bottom: 30px;
+}
+h1.button .resume-button {
+	background-color: white;
+	padding: 40px;
+	float: left;
+	width: 88px;
+}
+h1.button .contact-button {
+	background-color: white;
+	padding: 40px;
+	float: right;
+}
+section#about {
+	background: skyblue url(../images/img_beach.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+section#graphic {
+	background: skyblue url(../images/img_dirt.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+section#paint {
+	background: skyblue url(../images/img_run.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+section#resume {
+	background: skyblue url(../images/img_dirt.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+section#contact {
+	background: skyblue url(../images/img_hike.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.sectionTitle {
+	position: absolute;
+	left: 40px;
+	top: 50px;
+	color: #fff;
+}
+.sectionTitle .name {
+	font-weight: 400;
+	font-size: 77px;
+	letter-spacing: 0;
+	margin-left: 1em;
+	margin-top: 12px;
+}
+.sectionTitle .name .last {
+	display: block;
+	font-weight: 700;
+	font-size: 54px;
+	margin-top: -0.6em;
+}
+.sectionTitle .page {
+	font-weight: 100;
+	font-size: 30px;
+	margin-top: 0;
+	line-height: .8em;
+	border-bottom: 1px solid currentcolor;
+	display: block;
+	padding-bottom: .5em;
+	letter-spacing: .02em;
+
+}
+
+
+
+
+
+
+
+
+

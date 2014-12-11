@@ -1,0 +1,277 @@
+body {
+	margin: 0;
+	font: 20px/1.5 Raleway, Helvetica, sans-serif;
+}
+section {
+	width: 100%;
+	height: 800px;
+	background-color: blue;
+	position: relative;
+	overflow: hidden;
+}
+section:nth-child(n+2) {
+	box-shadow:0 7px 6px -6px rgba(0,0,0,.5) inset;
+}
+section:nth-child(2n+1) {
+	background-color: orange
+	/*delete once background photos are placed*/
+}
+section#home {
+	background: skyblue url(../images/img_tam.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+nav#nav-buttons {
+	margin: 5% 5% 5% 35%;
+}
+.round-button {
+	width: 25%;
+}
+.round-button-graphic {
+	width: 170%;
+	height: 0;
+	margin-left: 30%;
+	padding-bottom: 170%;
+    border-radius: 50%;
+	border: 5px solid;
+	border-color: rgba(255, 255, 255, .75);
+    overflow: hidden;
+    
+    background: rgba(0, 0, 0, .15); 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-graphic:hover {
+	background: rgba(100, 255, 180, .25);
+}
+.round-button-paint {
+	width: 75%;
+	height: 0;
+	margin: -180% 0 0 200%;
+	padding-bottom: 75%;
+    border-radius: 50%;
+	border: 5px solid;
+	border-color: rgba(255, 255, 255, .75);
+    overflow: hidden;
+    
+    background: rgba(0, 0, 0, .15); 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-paint:hover {
+	background: rgba(85, 230, 75, .25);
+}
+.round-button-about {
+	width: 100%;
+	height:0;
+	margin: 85% 0 0 138%;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border: 5px solid;
+	border-color: rgba(255, 255, 255, .75);
+    overflow: hidden;
+    
+    background: rgba(0, 0, 0, .15); 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-about:hover {
+	background: rgba(0, 255, 100, .35);
+}
+.round-button-resume {
+	width: 115%;
+	height:0;
+	margin: -192% 0 0 220%;
+	padding-bottom: 115%;
+    border-radius: 50%;
+	border: 5px solid;
+	border-color: rgba(255, 255, 255, .75);
+    overflow: hidden;
+    
+    background: rgba(0, 0, 0, .15); 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-resume:hover {
+	background: rgba(25, 210, 255, .35);
+}
+.round-button a {
+    display: block;
+	float: left;
+	width: 100%;
+	padding-top: 50%;
+    padding-bottom: 50%;
+	line-height: 1em;
+	margin-top: -0.5em;
+
+	text-align: center;
+	color: #e2eaf3;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-decoration: none;
+}
+aside#contact {
+	margin: 7% 0 0 60%;
+}
+.contact-link a {
+	text-decoration: none;
+	color: white;
+}
+.contact-link {
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 1.1em;
+	text-align: center;
+	padding: 20px;
+}
+.contact-link:hover {
+	color: rgb(177, 200, 182);
+}
+aside.home {
+	margin: 50% 0 0 0;
+	text-align: center;
+}
+.home-button {
+	text-decoration: none;
+	color: white;
+}
+.home-link {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.1em;
+	text-align: center;
+	border-radius: 50%;
+	width: 100px;
+    height: 100px;
+    border: 3px solid;
+	border-color: rgba(255, 255, 255, .75);
+    overflow: hidden;
+    margin: auto;
+    background: rgba(0, 0, 0, .35); 
+    box-shadow: 0 0 3px gray;
+    margin-top: -20px;
+}
+.home-link:hover {
+	text-shadow: 0px 0px 7px black;
+	background: rgba(0, 0, 0, .50); 
+}
+p.padding-top {
+	padding-top: 11px;
+}
+section#about {
+	background: skyblue url(../images/img_trees.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+#about-description {
+	margin: 7% 8% 5% 32%;
+	font-size: 16p
+}
+#about-description .italic {
+	font-style: italic;
+}
+section#graphic {
+	background: black no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+section#paint {
+	background: skyblue url(../images/img_dirt.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+section#resume {
+	background: skyblue url(../images/img_trees2.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+#resume-details {
+	margin: 5% 0 0 30%;
+	height: 80%;
+	width: 60%;
+	overflow: scroll;
+}
+#resume-details .h2 {
+
+}
+section#contact {
+	background: skyblue url(../images/img_hike.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+section#contact .sectionTitle {
+	color: black;
+}
+section#contact .sectionTitle .line2 {
+	color: white;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 1.2em;
+}
+section#contact .sectionTitle .line3 {
+	color: white;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1em;
+	letter-spacing: 1px;
+}
+section#contact .sectionTitle .line3new {
+	color: white;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1em;
+}
+section#contact .sectionTitle .line4 {
+	color: white;
+	font-size: 66px;
+	line-height: .9em;
+	font-weight: 300;
+	letter-spacing: -0.01em;
+}
+.sectionTitle {
+	position: absolute;
+	left: 40px;
+	top: 50px;
+	color: #fff;
+}
+.sectionTitle .name {
+	font-weight: 400;
+	font-size: 77px;
+	letter-spacing: 0;
+	margin-left: 1em;
+	margin-top: 12px;
+}
+.sectionTitle .name .last {
+	display: block;
+	font-weight: 700;
+	font-size: 54px;
+	margin-top: -0.6em;
+}
+.sectionTitle .page {
+	font-weight: 100;
+	font-size: 30px;
+	margin-top: 0;
+	line-height: .8em;
+	border-bottom: 1px solid currentcolor;
+	display: block;
+	padding-bottom: .5em;
+	letter-spacing: .02em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
