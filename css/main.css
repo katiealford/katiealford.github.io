@@ -196,23 +196,20 @@ section#about {
 	/*margin-top: -52%;*/
 }
 .paragraph {
-	width: 24%;
 	display: block;
-	position: absolute;
-    overflow: hidden;
 }
 section#graphic {
 	background: #CBCAC6 no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
-#portfolio {
+.portfolio {
 	margin-top: 7%;
 	margin-left: 30%;
 	height: 79.75%;
 	width: 61.1%;
 }
-#portfolio .box {
+.portfolio .box {
 	height: 79%;
 	width: 16%;
 	text-decoration: none;
@@ -233,7 +230,7 @@ section#graphic {
 	letter-spacing: .05em;
 	text-decoration: none;
 }
-#portfolio #box1:hover {
+.portfolio #box1:hover {
 	/*background: rgba(0, 0, 0, .4);*/
 	background-image: url(../images/fishonthegrill.jpg);
 	background-repeat: no-repeat;
@@ -243,10 +240,10 @@ section#graphic {
 	width: 16%;
 	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.95);
 }
-#portfolio #box2 {
+.portfolio #box2 {
 	margin-left: 18%;
 }
-#portfolio #box2:hover {
+.portfolio #box2:hover {
 	/*background: rgba(0, 0, 0, .4);*/
 	background-image: url(../images/fishonthegrill.jpg);
 	background-repeat: no-repeat;
@@ -256,12 +253,12 @@ section#graphic {
 	width: 16%;
 	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.95);
 }
-#portfolio #box3 {
+.portfolio #box3 {
 	margin-left: 36%;
 }
-#portfolio #box3:hover {
+.portfolio #box3:hover {
 	/*background: rgba(0, 0, 0, .4);*/
-	background-image: url(../images/fishonthegrill.jpg);
+	background-image: url(../images/ads/eyes.png);
 	background-repeat: no-repeat;
 	display: block;
 	background-size: cover;
@@ -272,19 +269,19 @@ section#graphic {
 
 /*BEGIN GRAPHIC PAGE*/
 section#graphic-page {
-	background: #CBCAC6 no-repeat;
-	background-size: cover;
-	background-position: center center;
+	background: #FFFFFF url(../images/sandj-background.jpg) fixed;
+	background-size: contain;
+	background-repeat: no-repeat;
 	width: 100%;
-	height: 3600px;
+	height: auto;
+	overflow: auto;
 	position: relative;
-	overflow: hidden;
 }
 .sectionTitle-extractedpage {
 	position: fixed;
 	left: 2%;
 	top: 11.75%;
-	color: #fff;
+	color: black;
 }
 .sectionTitle-extractedpage .name {
 	font-weight: 400;
@@ -311,13 +308,12 @@ section#graphic-page {
 }
 .header {
 	height: 48px;
-	width: 63%;
+	width: 100%;
 	text-decoration: none;
-	position: absolute;
 	overflow: hidden;
 	background: rgba(0, 0, 0, .25); 
-	top: 3.25%;
 	border-radius: none;
+	margin-top: 30px;
 }
 .header h1 {
 	font-size: 21px;
@@ -331,90 +327,49 @@ section#graphic-page {
 	text-decoration: none;
 }
 #sandjportfolio {
-	margin-top: 14%;
 	margin-left: 30%;
-	height: 79.75%;
 	width: 61.1%;
 }
 #sandjadvertising {
 	font-size: 15px;
-	width: 54%;
-	height: 70%;
+	width: 86%;
 	margin-left: 2%;
-	top: 6%;
+	margin-top: 20px;
+}
+.sample {
+	width: 29.1%;
+	border: 1px solid black;
+	margin: 2%;
+	float: left;
 }
 #sample1 {
-	content: url(../images/reevescole.jpg);
-	width: initial;
-	height: 8.5%;
-	margin-left: 2%;
-	position: absolute;
-	top: 13%;
-	border: 1px solid black;
+	content: url(../images/ads/christejames.png);
+	width: 96%;
+	margin-top: 5%;
 }
 #sample2 {
-	content: url(../images/christejames.jpg);
-	width: initial;
-	height: 13.75%;
-	margin-left: 2%;
-	position: absolute;
-	top: 52%;
-	border: 1px solid black;
+	content: url(../images/ads/reevescole.png);
 }
 #sample3 {
-	content: url(../images/polished.jpg);
-	width: initial;
-	height: 16%;
-	margin-left: 2%;
-	position: absolute;
-	top: 34%;
-	border: 1px solid black;
+	content: url(../images/ads/eyes.png);
 }
 #sample4 {
-	content: url(../images/princessnails.jpg);
-	width: initial;
-	height: 9.38%;
-	margin-left: 2%;
-	position: absolute;
-	top: 22.4%;
-	border: 1px solid black;
+	content: url(../images/ads/bzgrill.png);
 }
 #sample5 {
-	content: url(../images/fishonthegrill.jpg);
-	width: initial;
-	height: 18.8%;
-	position: absolute;
-	top: 13%;
-	right: 9%;
-	border: 1px solid black;
+	content: url(../images/ads/towergrill.png);
+	width: 96%;
 }
 #sample6 {
-	content: url(../images/eyes.jpg);
-	width: initial;
-	height: 9.7%;
-	position: absolute;
-	top: 34%;
-	right: 9%;
-	border: 1px solid black;
+	content: url(../images/ads/polished.png);
+	width: 96%;
 }
 #sample7 {
-	content: url(../images/danvilleflorist.jpg);
-	width: initial;
-	height: 5.5%;
-	position: absolute;
-	top: 44.5%;
-	right: 9%;
-	border: 1px solid black;
+	content: url(../images/ads/fishonthegrill.png);
+	width: 96%;
+	margin-bottom: 5%;
 }
-#sample8 {
-	content: url(../images/towergrill.jpg);
-	width: initial;
-	height: 29.85%;
-	margin-left: 2%;
-	position: absolute;
-	top: 68%;
-	border: 1px solid black;
-}
+/*apply .sample class to independent drafts: */
 #independent-sample1 {
 	content: url(../images/cinemaui/cinemaui.jpg);
 	width: 58%;
