@@ -192,16 +192,18 @@ section#about {
 
 }
 #paragraph2 {
-	margin-left: 28%;
+	margin-left: 6%;
 	/*margin-top: -52%;*/
 }
 .paragraph {
 	display: block;
+	width: 40%;
+	float: left;
 }
 section#graphic {
-	background: #CBCAC6 no-repeat;
+	background: #D3D3D3 url(../images/trees3.jpg) no-repeat;
+	background-position: bottom;
 	background-size: cover;
-	background-position: center center;
 }
 .portfolio {
 	margin-top: 7%;
@@ -214,63 +216,64 @@ section#graphic {
 	width: 16%;
 	text-decoration: none;
 	position: absolute;
-	border-color: rgba(255, 255, 255, .75);
     overflow: hidden;
-    background: rgba(0, 0, 0, .25); 
+    background: rgba(0, 0, 0, .15); 
     bottom: 8%;
     border-radius: none;
+    background-position: 50% 100%;
+	-o-transition: background-position .3s ease, background .3s ease;
+	-ms-transition: background-position .3s ease, background .3s ease;
+	-moz-transition: background-position .3s ease, background .3s ease;
+	-webkit-transition: background-position .3s ease, background .3s ease;
+	transition: background-position .3s ease, background .3s ease;
+
 }
 .box h1 {
 	font-size: 21px;
 	margin-top: 10%;
 	text-align: center;
-	color: white;
+	color: black;
 	font-weight: 400;
 	line-height: 1.5em;
 	letter-spacing: .05em;
 	text-decoration: none;
 }
 .portfolio #box1:hover {
-	/*background: rgba(0, 0, 0, .4);*/
-	background-image: url(../images/fishonthegrill.jpg);
+	background: white url(../images/eyes2.png);
 	background-repeat: no-repeat;
+	background-size: contain;
 	display: block;
-	background-size: cover;
 	height: 79%;
 	width: 16%;
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.95);
 }
 .portfolio #box2 {
 	margin-left: 18%;
 }
 .portfolio #box2:hover {
-	/*background: rgba(0, 0, 0, .4);*/
-	background-image: url(../images/fishonthegrill.jpg);
+	background: white url(../images/cecrc2.png);
 	background-repeat: no-repeat;
+	background-size: contain;
 	display: block;
-	background-size: cover;
 	height: 79%;
 	width: 16%;
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.95);
 }
 .portfolio #box3 {
 	margin-left: 36%;
 }
 .portfolio #box3:hover {
 	/*background: rgba(0, 0, 0, .4);*/
-	background-image: url(../images/ads/eyes.png);
+	background: white url(../images/wheel.png);
 	background-repeat: no-repeat;
+	background-size: contain;
 	display: block;
-	background-size: cover;
 	height: 79%;
 	width: 16%;
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.95);
 }
 
 /*BEGIN GRAPHIC PAGE*/
 section#graphic-page {
-	background: #FFFFFF url(../images/sandj-background.jpg) fixed;
-	background-size: contain;
+	background: #FFFFFF url(../images/graphics-background.jpg) fixed;
+	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: auto;
@@ -371,58 +374,23 @@ section#graphic-page {
 }
 /*apply .sample class to independent drafts: */
 #independent-sample1 {
-	content: url(../images/cinemaui/cinemaui.jpg);
-	width: 58%;
-	height: initial;
-	margin-left: 2%;
-	position: absolute;
-	top: 6%;
-	border: 1px solid black;
+	content: url(../images/cinemaui/cinemaui.png);
+	width: 96%;
 }
 #independent-sample1-draft1 {
 	content: url(../images/cinemaui/blossom.jpg);
-	width: 28%;
-	height: initial;
-	margin-left: 32%;
-	position: absolute;
-	top: 31%;
-	border: 1px solid black;
 }
 #independent-sample1-draft2 {
 	content: url(../images/cinemaui/blossomdark.jpg);
-	width: 28%;
-	height: initial;
-	margin-left: 2%;
-	position: absolute;
-	top: 31%;
-	border: 1px solid black;
 }
 #independent-sample1-draft3 {
-	content: url(../images/cinemaui/cinemaui3.jpg);
-	width: 28%;
-	height: initial;
-	margin-left: 32%;
-	position: absolute;
-	top: 23%;
-	border: 1px solid black;
-}
-#independent-sample1-draft4 {
-	content: url(../images/cinemaui/cinemaui2.jpg);
-	width: 28%;
-	height: initial;
-	margin-left: 2%;
-	position: absolute;
-	top: 23%;
-	border: 1px solid black;
+	content: url(../images/cinemaui/cinemaui3.png);
 }
 .divider {
 	height: 1%;
-	width: 63%;
+	width: 96%;
 	text-decoration: none;
-	position: absolute;
-	overflow: hidden;
 	background: rgba(0, 0, 0, .25); 
-	top: 40%;
 	border-radius: none;
 }
 #sj-link {
@@ -436,7 +404,7 @@ section#graphic-page {
 }
 /*END GRAPHIC PAGE*/
 section#paint {
-	background: #B0C4DE url(../images/img_sky.jpg) no-repeat;
+	background: #B0C4DE url(../images/img_trees3.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
