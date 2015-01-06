@@ -342,6 +342,11 @@ section#graphic-page {
 	margin-right: 3%;
 	margin-top: -4%;
 }
+#sandjportfolio p.left-text {
+	float: left;
+	margin-right: 3%;
+	margin-top: -4%;
+}
 #sandjportfolio p.rightbottom-text {
 	float: right;
 	margin-right: 5%;
@@ -424,6 +429,7 @@ section#graphic-page {
 #ac-cd {
 	width: 32.75%;
 	margin-bottom: 5%;
+	border: none;
 }
 #ac-packaging {
 	width: 58.75%;
