@@ -333,6 +333,20 @@ section#graphic-page {
 	margin-left: 30%;
 	width: 61.1%;
 }
+#sandjportfolio p {
+	margin-left: 2%;
+	font-size: 14px;
+}
+#sandjportfolio p.right-text {
+	float: right;
+	margin-right: 3%;
+	margin-top: -4%;
+}
+#sandjportfolio p.rightbottom-text {
+	float: right;
+	margin-right: 5%;
+	margin-top: 0;
+}
 #sandjadvertising {
 	font-size: 15px;
 	width: 86%;
@@ -343,64 +357,85 @@ section#graphic-page {
 	width: 29.1%;
 	border: 1px solid black;
 	margin: 2%;
+	margin-bottom: 0.5%;
+	float: left;
+}
+.sample-misc {
+	width: 45%%;
+	border: 1px solid black;
+	margin: 2%;
 	float: left;
 }
 #sample1 {
-	content: url(../images/ads/christejames.png);
 	width: 96%;
 	margin-top: 5%;
 }
-#sample2 {
-	content: url(../images/ads/reevescole.png);
-}
-#sample3 {
-	content: url(../images/ads/eyes.png);
-}
-#sample4 {
-	content: url(../images/ads/bzgrill.png);
-}
 #sample5 {
-	content: url(../images/ads/towergrill.png);
 	width: 96%;
 }
 #sample6 {
-	content: url(../images/ads/polished.png);
 	width: 96%;
 }
 #sample7 {
-	content: url(../images/ads/fishonthegrill.png);
 	width: 96%;
 	margin-bottom: 5%;
 }
-/*apply .sample class to independent drafts: */
 #independent-sample1 {
-	content: url(../images/cinemaui/cinemaui.png);
 	width: 96%;
 }
-#independent-sample1-draft1 {
-	content: url(../images/cinemaui/blossom.jpg);
+#independent-sample2 {
+	width: 96%;
 }
-#independent-sample1-draft2 {
-	content: url(../images/cinemaui/blossomdark.jpg);
+#independent-sample2-flyer {
+	width: 62.5%;
 }
-#independent-sample1-draft3 {
-	content: url(../images/cinemaui/cinemaui3.png);
+#independent-sample3 {
+	width: 96%;
+}
+#independent-sample3-card{
+	width: 43%;	
+}
+#independent-sample3-versions {
+	width:48.5%
+}
+#independent-logo2 {
+	width: 60%;
+	margin-left: 15%;
+}
+#independent-logo3 {
+	width: 60%;
+	margin-left: 25%;
+}
+#independent-logo4 {
+	width: 60%;
+	margin-left: 35%;
+}
+#logo1 {
+	width: 28%;
+}
+#logo2 {
+	width: 28%;
+	margin-top: 1%;
+}
+#ac-poster {
+	width: 60%;
+	margin-left:20%;
+}
+#ac-cd {
+	width: 32.75%;
+	margin-bottom: 5%;
+}
+#ac-packaging {
+	width: 58.75%;
+	margin-bottom: 5%;
 }
 .divider {
-	height: 1%;
-	width: 96%;
+	height: 5%;
+	width: 100%;
 	text-decoration: none;
 	background: rgba(0, 0, 0, .25); 
 	border-radius: none;
-}
-#sj-link {
-	background: url(../images/sjlogo.jpg) no-repeat;
-	width: 20%;
-	display: block;
-	margin: 0 auto;
-	text-indent: -9999px;
-	background-size: contain;
-	background-position: center center;
+	clear: both;
 }
 /*END GRAPHIC PAGE*/
 section#paint {
