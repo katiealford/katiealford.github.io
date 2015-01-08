@@ -12,10 +12,6 @@ section {
 section:nth-child(n+2) {
 	box-shadow:0 7px 6px -6px rgba(0,0,0,.5) inset;
 }
-section:nth-child(2n+1) {
-	background-color: orange
-	/*delete once background photos are placed*/
-}
 section#home {
 	background: #ADD8E6 url(../images/img_hermosa.jpg) no-repeat;
 	background-size: cover;
@@ -122,6 +118,58 @@ aside#contact-button {
 .contact-link:hover {
 	/*color: rgb(177, 200, 182);*/
 	color: rgba(100, 255, 180, .5);
+}
+@media only screen and (max-width: 410px) {
+	section#home {
+		background: green;
+	}
+	/*.sectionTitle {
+		margin: 5%;
+	}*/
+	nav#nav-buttons {
+		margin-top: 25%;
+	}
+	.round-button {
+		width: 25%;
+	}
+	.round-button-graphic {
+		width: 110%;
+		height: 0;
+		margin-top: 10%;
+		padding-bottom: 110%;
+	    border-radius: 50%;
+	    overflow: hidden;
+	    background: rgba(0, 0, 0, .25); 
+	    /*box-shadow: 0 0 3px gray;*/
+	}
+	.round-button a {
+	    display: block;
+		float: left;
+		width: 100%;
+		padding-top: 50%;
+	    padding-bottom: 50%;
+		line-height: 1em;
+		margin-top: -0.5em;
+		text-align: center;
+		color: #e2eaf3;
+		font-size: 0.7em;
+		font-weight: 300;
+		text-decoration: none;
+	}
+	aside#contact-button {
+		margin: 5%;
+	}
+	.contact-link a {
+		text-decoration: none;
+		color: white;
+	}
+	.contact-link {
+		font-size: 25px;
+		font-weight: 400;
+		line-height: 1.1em;
+		text-align: center;
+		padding: 20px;
+	}
 }
 aside.home {
 	text-align: center;
@@ -664,6 +712,7 @@ h2#email a{
 h2#email a:hover {
 	color: rgb(204, 255, 250);
 }
+
 
 
 
