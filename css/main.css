@@ -17,8 +17,37 @@ section#home {
 	background-size: cover;
 	background-position: center center;
 }
+.sectionTitle {
+	position: relative;
+	margin-top: 3%;
+	margin-left: 6%;
+	color: #fff;
+}
+.sectionTitle .name {
+	font-weight: 400;
+	font-size: 77px;
+	letter-spacing: 0;
+	margin: 0;
+}
+.sectionTitle .name .last {
+	display: block;
+	font-weight: 700;
+	font-size: 54px;
+	margin-top: -0.6em;
+}
+.sectionTitle .page {
+	width: 211px;
+	font-weight: 100;
+	font-size: 30px;
+	line-height: .8em;
+	border-bottom: 1px solid currentcolor;
+	display: block;
+	padding-bottom: .5em;
+	letter-spacing: .02em;
+}
 nav#nav-buttons {
-	margin: 5% 5% 5% 35%;
+	margin-left: 30%;
+	margin-top: -9%;
 }
 .round-button {
 	width: 25%;
@@ -119,56 +148,68 @@ aside#contact-button {
 	/*color: rgb(177, 200, 182);*/
 	color: rgba(100, 255, 180, .5);
 }
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 450px) {
 	section#home {
 		background: green;
 	}
-	/*.sectionTitle {
+	.sectionTitle {
+		position: relative;
 		margin: 5%;
-	}*/
+		color: #fff;
+	}
+	.sectionTitle .name {
+		font-weight: 400;
+		font-size: 77px;
+		letter-spacing: 0;
+	}
+	.sectionTitle .name .last {
+		display: block;
+		font-weight: 700;
+		font-size: 54px;
+	}
+	.sectionTitle .page {
+		font-weight: 100;
+		font-size: 30px;
+		margin-top: 0;
+		line-height: .8em;
+		border-bottom: 1px solid currentcolor;
+		display: block;
+		padding-bottom: .5em;
+		letter-spacing: .02em;
+	}
 	nav#nav-buttons {
-		margin-top: 25%;
+		margin: 5%;
+		height: 550px;
 	}
 	.round-button {
-		width: 25%;
+		width: 90%;
 	}
 	.round-button-graphic {
-		width: 110%;
-		height: 0;
-		margin-top: 10%;
-		padding-bottom: 110%;
-	    border-radius: 50%;
-	    overflow: hidden;
+		width: 90%;
+		height: 10%;
+		margin: 0;
+		margin-top: 50%;
+		padding-bottom: 0;
+	    border-radius: 0;
+	    overflow: auto;
 	    background: rgba(0, 0, 0, .25); 
-	    /*box-shadow: 0 0 3px gray;*/
+	}
+	.round-button-graphic:hover {
+		background: rgba(100, 255, 180, .25);
 	}
 	.round-button a {
 	    display: block;
 		float: left;
 		width: 100%;
-		padding-top: 50%;
-	    padding-bottom: 50%;
+		padding-top: 10%;
+	    padding-bottom: 0;
 		line-height: 1em;
-		margin-top: -0.5em;
+		margin-top: 0;
 		text-align: center;
 		color: #e2eaf3;
-		font-size: 0.7em;
-		font-weight: 300;
-		text-decoration: none;
-	}
-	aside#contact-button {
-		margin: 5%;
-	}
-	.contact-link a {
-		text-decoration: none;
-		color: white;
-	}
-	.contact-link {
-		font-size: 25px;
-		font-weight: 400;
-		line-height: 1.1em;
-		text-align: center;
-		padding: 20px;
+	    font-size: 24px;
+	    font-weight: 300;
+	    text-decoration: none;
 	}
 }
 aside.home {
@@ -248,15 +289,11 @@ section#about {
 	background-position: center center;
 }
 #about-description {
-	margin-top: 8%;
 	margin-left: 30%;
-	/*height: 79.75%;*/
+	margin-top: -12%;
 	width: 61.1%;
 	font-size: 15px;
 	bottom: 8%;
-	/*-webkit-column-count: 2;*/
-    /*-moz-column-count: 2;*/
-    /*column-count: 2;*/
 }
 #about-description .italic {
 	font-style: italic;
@@ -266,7 +303,6 @@ section#about {
 }
 #paragraph2 {
 	margin-left: 6%;
-	/*margin-top: -52%;*/
 }
 .paragraph {
 	display: block;
@@ -538,13 +574,14 @@ section#paint {
 	background-position: center center;
 }
 .paint {
-	height: 60%;
+	width: 70%;
 	border: 1px solid black;
 	margin: 2%;
 	float: left;
 }
 #paintings {
-	height: 63%;
+	margin-top: -15%;
+	height: 85%;
 	overflow: scroll;
 }
 /*END PAINT PAGE*/
@@ -556,21 +593,25 @@ section#resume {
 }
 .download-resume{
 	width: 15%;
-	margin-top: 20%;
-	margin-left: 8.5%;
+	margin-left: 6%;
 	float: left;
-	font-size: 20px;
+	font-size: 43px;
 	font-weight: 700;
 }
 .download-resume a {
 	text-decoration: none;
 	color: black;
 }
+.download-resume a:hover {
+	color: rgb(110,20,20);
+}
+.resume-line {
+	font-size: 54px;
+	line-height: 0.5em;	
+}
 #resume-content {
-	/*margin-top: 8%;
-	height: 79.75%;
-	width: 61.1%;
-	font-size: 15px;*/
+	height: 105%;
+	margin-top: -22%;
 	margin-left: 30%;
 	bottom: 8%;
 }
@@ -652,38 +693,8 @@ section#contact .sectionTitle .line4 {
 	font-weight: 300;
 	letter-spacing: -0.01em;
 }
-.sectionTitle {
-	position: absolute;
-	left: 40px;
-	top: 50px;
-	color: #fff;
-}
-.sectionTitle .name {
-	font-weight: 400;
-	font-size: 77px;
-	letter-spacing: 0;
-	margin-left: 1em;
-	margin-top: 12px;
-}
-.sectionTitle .name .last {
-	display: block;
-	font-weight: 700;
-	font-size: 54px;
-	margin-top: -0.6em;
-}
-.sectionTitle .page {
-	font-weight: 100;
-	font-size: 30px;
-	margin-top: 0;
-	line-height: .8em;
-	border-bottom: 1px solid currentcolor;
-	display: block;
-	padding-bottom: .5em;
-	letter-spacing: .02em;
-}
 #contact-details {
-	margin-top: 26%;
-	margin-left: 11%;
+	margin-left: 10%;
 	color: white;
 }
 h2#greeting {
