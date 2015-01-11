@@ -57,15 +57,12 @@ nav#nav-buttons {
 	height: 0;
 	margin-left: 17%;
 	padding-bottom: 170%;
-    border-radius: 50%;
-	/*border: 5px solid;*/
-	border-color: rgba(255, 255, 255, .75);
-    overflow: hidden;
-    background: rgba(0, 0, 0, .25); 
-    /*box-shadow: 0 0 3px gray;*/
+	border-radius: 50%;
+	overflow: hidden;
+	background: rgba(0, 0, 0, .25); 
 }
 .round-button-graphic:hover {
-	background: rgba(100, 255, 180, .25);
+	background: rgba(0,184,174,.5);
 }
 .round-button-paint {
 	width: 75%;
@@ -73,16 +70,11 @@ nav#nav-buttons {
 	margin: -191% 0 0 186%;
 	padding-bottom: 75%;
     border-radius: 50%;
-	/*border: 5px solid;*/
-	border-color: rgba(255, 255, 255, .75);
     overflow: hidden;
     background: rgba(0, 0, 0, .25); 
-    /*box-shadow: 0 0 3px gray;*/
 }
 .round-button-paint:hover {
-	/*background: rgba(85, 230, 75, .25);*/
-	/*background: rgba(0, 0, 0, .5);*/
-	background: rgba(100, 255, 180, .25);
+	background: rgba(0,184,174,.5);
 }
 .round-button-about {
 	width: 100%;
@@ -90,15 +82,11 @@ nav#nav-buttons {
 	margin: 101% 0 0 141%;
 	padding-bottom: 100%;
 	border-radius: 50%;
-	/*border: 5px solid;*/
-	border-color: rgba(255, 255, 255, .75);
 	overflow: hidden;    
 	background: rgba(0, 0, 0, .25); 
-	/*box-shadow: 0 0 3px gray;*/
 }
 .round-button-about:hover {
-	/*background: rgba(0, 255, 100, .35);*/
-	background: rgba(100, 255, 180, .25);
+	background: rgba(0,184,174,.5);
 }
 .round-button-resume {
 	width: 115%;
@@ -106,15 +94,11 @@ nav#nav-buttons {
 	margin: -197% 0 0 216%;
 	padding-bottom: 115%;
 	border-radius: 50%;
-	/*border: 5px solid;*/
-	border-color: rgba(255, 255, 255, .75);
 	overflow: hidden;
-	background: rgba(0, 0, 0, .15); 
-	/*box-shadow: 0 0 3px gray;*/
+	background: rgba(0, 0, 0, .25); 
 }
 .round-button-resume:hover {
-	/*background: rgba(25, 210, 255, .35);*/
-	background: rgba(100, 255, 180, .25);
+	background: rgba(0,184,174,.5);
 }
 .round-button a {
     display: block;
@@ -145,12 +129,11 @@ aside#contact-button {
 	padding: 20px;
 }
 .contact-link:hover {
-	/*color: rgb(177, 200, 182);*/
-	color: rgba(100, 255, 180, .5);
+	color: rgba(0,184,174,.75);
 }
 @media only screen and (max-width: 450px) {
 	section#home {
-		background: green;
+		
 	}
 	.sectionTitle {
 		position: relative;
@@ -179,29 +162,68 @@ aside#contact-button {
 	}
 	nav#nav-buttons {
 		margin: 5%;
-		height: 550px;
+		height: 406px;
 	}
 	.round-button {
-		width: 90%;
+		width: 100%;
 	}
 	.round-button-graphic {
-		width: 90%;
-		height: 10%;
+		width: 100%;
+		height: 20%;
 		margin: 0;
-		margin-top: 50%;
+		margin-top: 53%;
 		padding-bottom: 0;
 	    border-radius: 0;
 	    overflow: auto;
-	    background: rgba(0, 0, 0, .25); 
+	    background: rgba(0, 0, 0, .5); 
 	}
 	.round-button-graphic:hover {
+		background: rgba(100, 255, 180, .25);
+	}
+	.round-button-paint {
+		width: 100%;
+		height: 20%;
+		margin: 0;
+		margin-top: 2%;
+		padding-bottom: 0;
+	    border-radius: 0;
+	    overflow: auto;
+	    background: rgba(0, 0, 0, .5); 
+	}
+	.round-button-paint:hover {
+		background: rgba(100, 255, 180, .25);
+	}
+	.round-button-about {
+		width: 100%;
+		height: 20%;
+		margin: 0;
+		margin-top: 2%;
+		padding-bottom: 0;
+	    border-radius: 0;
+	    overflow: auto;
+	    background: rgba(0, 0, 0, .5); 
+	}
+	.round-button-about:hover {
+		background: rgba(100, 255, 180, .25);
+	}
+	.round-button-resume {
+		width: 100%;
+		height: 20%;
+		margin: 0;
+		margin-top: 2%;
+		padding-bottom: 0;
+	    border-radius: 0;
+	    overflow: auto;
+	    background: rgba(0, 0, 0, .5); 
+	}
+	.round-button-resume:hover {
 		background: rgba(100, 255, 180, .25);
 	}
 	.round-button a {
 	    display: block;
 		float: left;
 		width: 100%;
-		padding-top: 10%;
+		padding-top: 8%;
 	    padding-bottom: 0;
 		line-height: 1em;
 		margin-top: 0;
@@ -210,6 +232,30 @@ aside#contact-button {
 	    font-size: 24px;
 	    font-weight: 300;
 	    text-decoration: none;
+	}
+	aside#contact-button {
+	margin: 7% 0 0 60%;
+	}
+	.contact-link a {
+		text-decoration: none;
+		color: white;
+	}
+	.contact-link {
+		width: 100%;
+		height: 14%;
+		margin: 0;
+		margin-top: 2%;
+		padding-bottom: 0;
+	    border-radius: 0;
+		font-size: 45px;
+		font-weight: 400;
+		line-height: 1.1em;
+		text-align: center;
+		/*padding: 20px;*/
+	}
+	.contact-link:hover {
+		/*color: rgb(177, 200, 182);*/
+		color: rgba(100, 255, 180, .5);
 	}
 }
 aside.home {
@@ -603,7 +649,7 @@ section#resume {
 	color: black;
 }
 .download-resume a:hover {
-	color: rgb(110,20,20);
+	color: rgb(0,184,174);
 }
 .resume-line {
 	font-size: 54px;
@@ -635,7 +681,7 @@ section#resume {
 }
 #resume-details h3 {
 	font-size: 24px;
-	color: rgb(110,20,20);
+	color: rgb(0,184,174);
 	margin-bottom: 10px;
 }
 #resume-details h4 {
