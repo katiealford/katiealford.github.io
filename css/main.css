@@ -22,21 +22,23 @@ section#home {
 	margin-top: 3%;
 	margin-left: 6%;
 	color: #fff;
+	display: inline-block;
 }
 .sectionTitle .name {
 	font-weight: 400;
-	font-size: 77px;
+	font-size: 85px;
 	letter-spacing: 0;
 	margin: 0;
+	display: inline-block;
 }
 .sectionTitle .name .last {
 	display: block;
 	font-weight: 700;
-	font-size: 54px;
+	font-size: 60px;
 	margin-top: -0.6em;
 }
 .sectionTitle .page {
-	width: 211px;
+	width: 234px;
 	font-weight: 100;
 	font-size: 30px;
 	line-height: .8em;
@@ -47,60 +49,64 @@ section#home {
 }
 nav#nav-buttons {
 	margin-left: 30%;
-	margin-top: -9%;
+	margin-top: -12%;
 }
-.round-button {
+
+
+
+.round-button-container {
 	width: 25%;
+	height: 85%;
+}
+.header-round-button {
+	border-radius: 50%;
+	background: rgba(0, 0, 0, .25);
+	overflow: hidden;
+	-o-transition: background .2s ease;
+	-ms-transition: background .2s ease;
+	-moz-transition: background .2s ease;
+	-webkit-transition: background .2s ease;
+	transition: background .2s ease;
+	transition: all .3s ease;
+}
+.header-round-button:hover {
+	background: rgba(0,184,174,.5);
 }
 .round-button-graphic {
-	width: 170%;
+	width: 190%;
 	height: 0;
-	margin-left: 17%;
-	padding-bottom: 170%;
-	border-radius: 50%;
-	overflow: hidden;
-	background: rgba(0, 0, 0, .25); 
-}
-.round-button-graphic:hover {
-	background: rgba(0,184,174,.5);
+	margin: -60% auto auto -20%;
+	padding-bottom: 190%;
+	transition: all .3s ease;
 }
 .round-button-paint {
-	width: 75%;
+	width: 130%;
 	height: 0;
-	margin: -191% 0 0 186%;
-	padding-bottom: 75%;
-    border-radius: 50%;
-    overflow: hidden;
-    background: rgba(0, 0, 0, .25); 
-}
-.round-button-paint:hover {
-	background: rgba(0,184,174,.5);
+	margin: -153% auto auto 136%;
+	padding-bottom: 130%;
+	position: relative;
+	left: 100%;
+	transition: all .3s ease;
 }
 .round-button-about {
-	width: 100%;
+	width: 80%;
 	height:0;
-	margin: 101% 0 0 141%;
-	padding-bottom: 100%;
-	border-radius: 50%;
-	overflow: hidden;    
-	background: rgba(0, 0, 0, .25); 
-}
-.round-button-about:hover {
-	background: rgba(0,184,174,.5);
+	margin-left: 70%;
+	padding-bottom: 80%;
+	position: relative;
+	left: 100%;
+	transition: all .3s ease;
 }
 .round-button-resume {
-	width: 115%;
+	width: 95%;
 	height:0;
-	margin: -197% 0 0 216%;
-	padding-bottom: 115%;
-	border-radius: 50%;
-	overflow: hidden;
-	background: rgba(0, 0, 0, .25); 
+	margin: -23% auto auto 58%;
+	padding-bottom: 95%;
+	position: relative;
+	left: 100%;
+	transition: all .3s ease;
 }
-.round-button-resume:hover {
-	background: rgba(0,184,174,.5);
-}
-.round-button a {
+.header-round-button a {
     display: block;
 	float: left;
 	width: 100%;
@@ -114,8 +120,10 @@ nav#nav-buttons {
     font-weight: 300;
     text-decoration: none;
 }
+
 aside#contact-button {
-	margin: 7% 0 0 60%;
+	margin: -16% 0 0 60%;
+	padding: 6%;
 }
 .contact-link a {
 	text-decoration: none;
@@ -123,140 +131,13 @@ aside#contact-button {
 }
 .contact-link {
 	font-size: 45px;
-	font-weight: 400;
+	font-weight: 100;
 	line-height: 1.1em;
 	text-align: center;
 	padding: 20px;
 }
 .contact-link:hover {
 	color: rgba(0,184,174,.75);
-}
-@media only screen and (max-width: 450px) {
-	section#home {
-		
-	}
-	.sectionTitle {
-		position: relative;
-		margin: 5%;
-		color: #fff;
-	}
-	.sectionTitle .name {
-		font-weight: 400;
-		font-size: 77px;
-		letter-spacing: 0;
-	}
-	.sectionTitle .name .last {
-		display: block;
-		font-weight: 700;
-		font-size: 54px;
-	}
-	.sectionTitle .page {
-		font-weight: 100;
-		font-size: 30px;
-		margin-top: 0;
-		line-height: .8em;
-		border-bottom: 1px solid currentcolor;
-		display: block;
-		padding-bottom: .5em;
-		letter-spacing: .02em;
-	}
-	nav#nav-buttons {
-		margin: 5%;
-		height: 406px;
-	}
-	.round-button {
-		width: 100%;
-	}
-	.round-button-graphic {
-		width: 100%;
-		height: 20%;
-		margin: 0;
-		margin-top: 53%;
-		padding-bottom: 0;
-	    border-radius: 0;
-	    overflow: auto;
-	    background: rgba(0, 0, 0, .5); 
-	}
-	.round-button-graphic:hover {
-		background: rgba(100, 255, 180, .25);
-	}
-	.round-button-paint {
-		width: 100%;
-		height: 20%;
-		margin: 0;
-		margin-top: 2%;
-		padding-bottom: 0;
-	    border-radius: 0;
-	    overflow: auto;
-	    background: rgba(0, 0, 0, .5); 
-	}
-	.round-button-paint:hover {
-		background: rgba(100, 255, 180, .25);
-	}
-	.round-button-about {
-		width: 100%;
-		height: 20%;
-		margin: 0;
-		margin-top: 2%;
-		padding-bottom: 0;
-	    border-radius: 0;
-	    overflow: auto;
-	    background: rgba(0, 0, 0, .5); 
-	}
-	.round-button-about:hover {
-		background: rgba(100, 255, 180, .25);
-	}
-	.round-button-resume {
-		width: 100%;
-		height: 20%;
-		margin: 0;
-		margin-top: 2%;
-		padding-bottom: 0;
-	    border-radius: 0;
-	    overflow: auto;
-	    background: rgba(0, 0, 0, .5); 
-	}
-	.round-button-resume:hover {
-		background: rgba(100, 255, 180, .25);
-	}
-	.round-button a {
-	    display: block;
-		float: left;
-		width: 100%;
-		padding-top: 8%;
-	    padding-bottom: 0;
-		line-height: 1em;
-		margin-top: 0;
-		text-align: center;
-		color: #e2eaf3;
-	    font-size: 24px;
-	    font-weight: 300;
-	    text-decoration: none;
-	}
-	aside#contact-button {
-	margin: 7% 0 0 60%;
-	}
-	.contact-link a {
-		text-decoration: none;
-		color: white;
-	}
-	.contact-link {
-		width: 100%;
-		height: 14%;
-		margin: 0;
-		margin-top: 2%;
-		padding-bottom: 0;
-	    border-radius: 0;
-		font-size: 45px;
-		font-weight: 400;
-		line-height: 1.1em;
-		text-align: center;
-		/*padding: 20px;*/
-	}
-	.contact-link:hover {
-		/*color: rgb(177, 200, 182);*/
-		color: rgba(100, 255, 180, .5);
-	}
 }
 aside.home {
 	text-align: center;
@@ -427,7 +308,7 @@ section#graphic {
 
 /*BEGIN GRAPHIC PAGE*/
 section#graphic-page {
-	background: #FFFFFF url(../images/graphics-background2.jpg) fixed;
+	background: #FFFFFF url(../images/graphics-background3.jpg) fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -466,7 +347,7 @@ section#graphic-page {
 }
 .header {
 	height: 48px;
-	width: 100%;
+	width: 97%;
 	text-decoration: none;
 	overflow: hidden;
 	background: rgba(0, 0, 0, .25); 
@@ -483,6 +364,7 @@ section#graphic-page {
 	line-height: 1.5em;
 	letter-spacing: .05em;
 	text-decoration: none;
+	display: inline-block;
 }
 #sandjportfolio {
 	margin-left: 30%;
@@ -491,26 +373,7 @@ section#graphic-page {
 #sandjportfolio p {
 	margin-left: 2%;
 	font-size: 14px;
-}
-#sandjportfolio p.right-text {
-	float: right;
-	margin-right: 3%;
-	margin-top: -4%;
-}
-#sandjportfolio p.left-text {
-	float: left;
-	margin-right: 3%;
-	margin-top: -4%;
-}
-#sandjportfolio p.leftbottom-text {
-	float: left;
-	margin-right: 3%;
-	margin-top: 0;
-}
-#sandjportfolio p.rightbottom-text {
-	float: right;
-	margin-right: 5%;
-	margin-top: 0;
+	text-align: center;
 }
 #sandjadvertising {
 	font-size: 15px;
@@ -519,23 +382,15 @@ section#graphic-page {
 	margin-top: 20px;
 }
 .sample {
-	width: 29.1%;
+	width: 44%;
 	border: 1px solid black;
 	margin: 2%;
 	margin-bottom: 0.5%;
-	float: left;
+	position: relative;
+	display: inline-block;
 }
-.sample-misc {
-	width: 45%;
-	border: 1px solid black;
-	margin: 2%;
-	float: left;
-}
-.sample-poster {
-	width: 45%;
-	border: 1px solid black;
-	margin: 2%;
-	float: left;
+.card {
+	margin-left: 27.33%;
 }
 .sample1 {
 	width: 96%;
@@ -545,30 +400,15 @@ section#graphic-page {
 	margin-bottom: 0.5%;
 	float: left;
 }
-#sample5 {
-	width: 96%;
+.samplewide {
+	width: 93%;
 }
-#sample6 {
-	width: 96%;
+.medium {
+	width: 70%;
+	margin-left: 15%;
 }
-#sample7 {
-	width: 96%;
+.bottom {
 	margin-bottom: 5%;
-}
-#independent-sample1 {
-	width: 96%;
-}
-#independent-sample2 {
-	width: 96%;
-}
-#independent-sample2-flyer {
-	width: 62.5%;
-}
-#independent-sample3 {
-	width: 96%;
-}
-#independent-sample3-card{
-	width: 43%;	
 }
 #independent-sample3-versions {
 	width:48.5%
@@ -585,25 +425,12 @@ section#graphic-page {
 	width: 60%;
 	margin-left: 35%;
 }
-#logo1 {
-	width: 28%;
-}
-#logo2 {
-	width: 28%;
-	margin-top: 1%;
-}
-#ac-poster {
-	width: 60%;
-	margin-left:20%;
-}
 #ac-cd {
-	width: 30%;
+	width: 55%;
+	margin-left: 22.5%;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;
-}
-#ac-packaging {
-	width: 58.75%;
 }
 .divider {
 	height: 5%;
@@ -623,6 +450,7 @@ section#paint {
 	width: 70%;
 	border: 1px solid black;
 	margin: 2%;
+	margin-left: 10%;
 	float: left;
 }
 #paintings {
@@ -640,8 +468,8 @@ section#resume {
 .download-resume{
 	width: 15%;
 	margin-left: 6%;
-	float: left;
-	font-size: 43px;
+	/*float: left;*/
+	font-size: 48px;
 	font-weight: 700;
 }
 .download-resume a {
@@ -652,7 +480,7 @@ section#resume {
 	color: rgb(0,184,174);
 }
 .resume-line {
-	font-size: 54px;
+	font-size: 61px;
 	line-height: 0.5em;	
 }
 #resume-content {
@@ -771,7 +599,136 @@ h2#email a:hover {
 }
 
 
+/*MOBILE BREAKPOINTS*/
 
+@media only screen and (max-width: 450px) {
+	section#home {
+		height: 100vh;
+		min-height: 600px;
+	}
+	.sectionTitle {
+		position: relative;
+		margin: 5%;
+		/*color: #fff;*/
+	}
+	.sectionTitle .name {
+		font-weight: 400;
+		font-size: 77px;
+		letter-spacing: 0;
+	}
+	.sectionTitle .name .last {
+		display: block;
+		font-weight: 700;
+		font-size: 54px;
+	}
+	/*.sectionTitle .page {
+		font-weight: 100;
+		font-size: 30px;
+		margin-top: 0;
+		line-height: .8em;
+		border-bottom: 1px solid currentcolor;
+		display: block;
+		padding-bottom: .5em;
+		letter-spacing: .02em;
+	}*/
+	nav#nav-buttons {
+		margin: 5%;
+		height: 406px;
+	}
+	.round-button {
+		width: 100%;
+	}
+	.round-button-about {
+		width: 100%;
+		height: 20%;
+		margin: 0;
+		margin-top: 30%;
+		padding-bottom: 0;
+	    border-radius: 0;
+	    overflow: auto;
+	    background: rgba(0, 0, 0, .5); 
+	}
+	.round-button-about:hover {
+		background: rgba(100, 255, 180, .25);
+	}
+	.round-button-graphic {
+		width: 100%;
+		height: 20%;
+		margin: 0;
+		margin-top: 2%;
+		padding-bottom: 0;
+	    border-radius: 0;
+	    overflow: auto;
+	    background: rgba(0, 0, 0, .5); 
+	}
+	.round-button-graphic:hover {
+		background: rgba(100, 255, 180, .25);
+	}
+	.round-button-paint {
+		width: 100%;
+		height: 20%;
+		margin: 0;
+		margin-top: 2%;
+		padding-bottom: 0;
+	    border-radius: 0;
+	    overflow: auto;
+	    background: rgba(0, 0, 0, .5); 
+	}
+	.round-button-paint:hover {
+		background: rgba(100, 255, 180, .25);
+	}
+	.round-button-resume {
+		width: 100%;
+		height: 20%;
+		margin: 0;
+		margin-top: 2%;
+		padding-bottom: 0;
+	    border-radius: 0;
+	    overflow: auto;
+	    background: rgba(0, 0, 0, .5); 
+	}
+	.round-button-resume:hover {
+		background: rgba(100, 255, 180, .25);
+	}
+	.round-button a {
+	    display: block;
+		float: left;
+		width: 100%;
+		padding-top: 8%;
+	    padding-bottom: 0;
+		line-height: 1em;
+		margin-top: 0;
+		text-align: center;
+		color: #e2eaf3;
+	    font-size: 24px;
+	    font-weight: 300;
+	    text-decoration: none;
+	}
+	aside#contact-button {
+	margin: 7% 0 0 60%;
+	}
+	.contact-link a {
+		text-decoration: none;
+		color: white;
+	}
+	.contact-link {
+		width: 100%;
+		height: 14%;
+		margin: 0;
+		margin-top: 2%;
+		padding-bottom: 0;
+	    border-radius: 0;
+		font-size: 45px;
+		font-weight: 400;
+		line-height: 1.1em;
+		text-align: center;
+		/*padding: 20px;*/
+	}
+	.contact-link:hover {
+		/*color: rgb(177, 200, 182);*/
+		color: rgba(100, 255, 180, .5);
+	}
+} /*END 450px*/
 
 
 
