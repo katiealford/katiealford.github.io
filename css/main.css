@@ -600,7 +600,7 @@ h2#email a:hover {
 
 /*MOBILE BREAKPOINTS*/
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 650px) {
 	section#home {
 		height: 100vh;
 		min-height: 600px;
