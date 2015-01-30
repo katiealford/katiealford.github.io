@@ -652,7 +652,7 @@ h2#email a:hover {
 	}
 	.round-button-container {
 		width: 100%;
-		height: 85%;
+		height: 75%;
 	}
 	.header-round-button {
 		border-radius: 0;
@@ -738,6 +738,51 @@ h2#email a:hover {
 	}
 	#paragraph1 {
 		margin: 2% 0 0 0;
+	}
+	section#home {
+		height: 100vh;
+		min-height: 600px;
+	}
+	.portfolio {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+	}
+	.portfolio #box1 {
+		margin: auto 0 50% 0;
+		width: 100%;
+		height: 0;
+		padding-bottom: 50%;
+	}
+	.portfolio #box1:hover {
+		margin: auto 0 50% 0;
+		width: 100%;
+		height: 0;
+		padding-bottom: 50%;
+	}
+	.portfolio #box2 {
+		margin: 0;
+		width: 50%;
+		height: 0;
+		padding-bottom: 50%;
+	}
+	.portfolio #box2:hover {
+		margin: 0;
+		width: 50%;
+		height: 0;
+		padding-bottom: 50%;
+	}
+	.portfolio #box3 {
+		margin: 0 auto 0 50%;
+		width: 50%;
+		height: 0;
+		padding-bottom: 50%;
+	}
+	.portfolio #box3:hover {
+		margin: 0 auto 0 50%;
+		width: 50%;
+		height: 0;
+		padding-bottom: 50%;
 	}
 } /*END 650px*/
 
