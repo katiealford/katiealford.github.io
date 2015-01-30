@@ -51,9 +51,6 @@ nav#nav-buttons {
 	margin-left: 30%;
 	margin-top: -12%;
 }
-
-
-
 .round-button-container {
 	width: 25%;
 	height: 85%;
@@ -526,7 +523,7 @@ section#resume {
 	margin: 0;
 }
 section#contact {
-	background: #CFE1BA url(../images/img_hike.jpg) no-repeat;
+	background: #CFE1BA url(../images/contact-background.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
@@ -620,16 +617,95 @@ h2#email a:hover {
 		font-weight: 700;
 		font-size: 54px;
 	}
-	/*.sectionTitle .page {
+
+	.round-button-container {
+		width: 25%;
+		height: 85%;
+	}
+	.header-round-button {
+		border-radius: 50%;
+		background: rgba(0, 0, 0, .25);
+		overflow: hidden;
+		-o-transition: background .2s ease;
+		-ms-transition: background .2s ease;
+		-moz-transition: background .2s ease;
+		-webkit-transition: background .2s ease;
+		transition: background .2s ease;
+		transition: all .3s ease;
+	}
+	.header-round-button:hover {
+		background: rgba(0,184,174,.5);
+	}
+	.round-button-graphic {
+		width: 190%;
+		height: 0;
+		margin: -60% auto auto -20%;
+		padding-bottom: 190%;
+		transition: all .3s ease;
+	}
+	.round-button-paint {
+		width: 130%;
+		height: 0;
+		margin: -153% auto auto 136%;
+		padding-bottom: 130%;
+		position: relative;
+		left: 100%;
+		transition: all .3s ease;
+	}
+	.round-button-about {
+		width: 80%;
+		height:0;
+		margin-left: 70%;
+		padding-bottom: 80%;
+		position: relative;
+		left: 100%;
+		transition: all .3s ease;
+	}
+	.round-button-resume {
+		width: 95%;
+		height:0;
+		margin: -23% auto auto 58%;
+		padding-bottom: 95%;
+		position: relative;
+		left: 100%;
+		transition: all .3s ease;
+	}
+	.header-round-button a {
+	    display: block;
+		float: left;
+		width: 100%;
+		padding-top: 50%;
+	    padding-bottom: 50%;
+		line-height: 1em;
+		margin-top: -0.5em;
+		text-align: center;
+		color: #e2eaf3;
+	    font-size: 1.4em;
+	    font-weight: 300;
+	    text-decoration: none;
+	}
+
+	aside#contact-button {
+		margin: -16% 0 0 60%;
+		padding: 6%;
+	}
+	.contact-link a {
+		text-decoration: none;
+		color: white;
+	}
+	.contact-link {
+		font-size: 45px;
 		font-weight: 100;
-		font-size: 30px;
-		margin-top: 0;
-		line-height: .8em;
-		border-bottom: 1px solid currentcolor;
-		display: block;
-		padding-bottom: .5em;
-		letter-spacing: .02em;
-	}*/
+		line-height: 1.1em;
+		text-align: center;
+		padding: 20px;
+	}
+	.contact-link:hover {
+		color: rgba(0,184,174,.75);
+	}
+
+
+
 	nav#nav-buttons {
 		margin: 5%;
 		height: 406px;
