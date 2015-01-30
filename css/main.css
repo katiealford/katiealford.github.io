@@ -18,7 +18,7 @@ section#home {
 	background-position: center center;
 }
 .sectionTitle {
-	position: relative;
+/*	position: relative;*/
 	margin-top: 3%;
 	margin-left: 6%;
 	color: #fff;
@@ -528,8 +528,12 @@ section#contact {
 	background-position: center center;
 }
 #contact-content {
-	margin-left: 30%;
+	margin-left: 6%;
+	margin-top:	15%;
 	bottom: 8%;
+}
+#contact-home-button {
+	margin-left: 24%;
 }
 section#home .sectionTitle {
 	color: black;
@@ -539,32 +543,31 @@ section#contact .sectionTitle {
 }
 section#contact .sectionTitle .line2 {
 	color: white;
-	font-size: 60px;
+	font-size: 67px;
 	font-weight: 100;
 	line-height: 1.2em;
 }
 section#contact .sectionTitle .line3 {
 	color: white;
-	font-size: 42px;
+	font-size: 48px;
 	font-weight: 700;
 	line-height: 1em;
 	letter-spacing: 1px;
 }
 section#contact .sectionTitle .line3new {
 	color: white;
-	font-size: 42px;
+	font-size: 48px;
 	font-weight: 700;
 	line-height: 1em;
 }
 section#contact .sectionTitle .line4 {
 	color: white;
-	font-size: 66px;
+	font-size: 73px;
 	line-height: .9em;
 	font-weight: 300;
 	letter-spacing: -0.01em;
 }
 #contact-details {
-	margin-left: 10%;
 	color: white;
 }
 h2#greeting {
@@ -593,37 +596,66 @@ h2#email a{
 h2#email a:hover {
 	color: rgb(204, 255, 250);
 }
+/*TABLET BREAKPOINT*/
 
+@media only screen and (max-width: 1120px) {
+	.sectionTitle {
+		margin-left: 3%;
+	}
+	.sectionTitle .name {
+		font-weight: 400;
+		font-size: 70px;
+		letter-spacing: 0;
+		margin: 0;
+		display: inline-block;
+	}
+	.sectionTitle .name .last {
+		display: block;
+		font-weight: 700;
+		font-size: 50px;
+		margin-top: -0.6em;
+	}
+	.sectionTitle .page {
+		width: 196px;
+		font-size: 25px;
+		line-height: .8em;
+		padding-bottom: .25em;
+	}
+}
 
-/*MOBILE BREAKPOINTS*/
+@media only screen and (max-width: 800px) {
+	.round-button-graphic {
+		font: 16px;
+	}
+	.paragraph {
+		width: 90%;
+	}
+	#paragraph2 {
+		margin: 2% 0 0 0;
+	}
+	#about-description {
+		margin-left: 3%;
+		margin-top: 0;
+	}
+}
+
+/*BEGIN MOBILE BREAKPOINT*/
 
 @media only screen and (max-width: 650px) {
 	section#home {
 		height: 100vh;
 		min-height: 600px;
 	}
-	.sectionTitle {
-		position: relative;
-		margin: 5%;
-		/*color: #fff;*/
+	nav#nav-buttons {
+		margin-left: 0;
+		margin-top: 0;
 	}
-	.sectionTitle .name {
-		font-weight: 400;
-		font-size: 77px;
-		letter-spacing: 0;
-	}
-	.sectionTitle .name .last {
-		display: block;
-		font-weight: 700;
-		font-size: 54px;
-	}
-
 	.round-button-container {
-		width: 25%;
+		width: 100%;
 		height: 85%;
 	}
 	.header-round-button {
-		border-radius: 50%;
+		border-radius: 0;
 		background: rgba(0, 0, 0, .25);
 		overflow: hidden;
 		-o-transition: background .2s ease;
@@ -633,60 +665,58 @@ h2#email a:hover {
 		transition: background .2s ease;
 		transition: all .3s ease;
 	}
-	.header-round-button:hover {
-		background: rgba(0,184,174,.5);
-	}
 	.round-button-graphic {
-		width: 190%;
+		width: 50%;
 		height: 0;
-		margin: -60% auto auto -20%;
-		padding-bottom: 190%;
+		margin: 0;
+		padding-bottom: 50%;
+		position: absolute;
+		left: 0;
 		transition: all .3s ease;
 	}
 	.round-button-paint {
-		width: 130%;
+		width: 50%;
 		height: 0;
-		margin: -153% auto auto 136%;
-		padding-bottom: 130%;
-		position: relative;
-		left: 100%;
+		margin: 0 0 0 50%;
+		padding-bottom: 50%;
+		position: absolute;
+		left: 0;
 		transition: all .3s ease;
 	}
 	.round-button-about {
-		width: 80%;
-		height:0;
-		margin-left: 70%;
-		padding-bottom: 80%;
-		position: relative;
-		left: 100%;
+		width: 50%;
+		height: 0;
+		margin: 50% 50% 0 0;
+		padding-bottom: 50%;
+		position: absolute;
+		left: 0;
 		transition: all .3s ease;
 	}
 	.round-button-resume {
-		width: 95%;
-		height:0;
-		margin: -23% auto auto 58%;
-		padding-bottom: 95%;
-		position: relative;
-		left: 100%;
+		width: 50%;
+		height: 0;
+		margin: 50%;
+		padding-bottom: 50%;
+		position: absolute;
+		left: 0;
 		transition: all .3s ease;
 	}
 	.header-round-button a {
 	    display: block;
-		float: left;
+		float: none;
 		width: 100%;
 		padding-top: 50%;
 	    padding-bottom: 50%;
 		line-height: 1em;
-		margin-top: -0.5em;
+		margin: 0;
 		text-align: center;
 		color: #e2eaf3;
 	    font-size: 1.4em;
 	    font-weight: 300;
 	    text-decoration: none;
 	}
-
 	aside#contact-button {
-		margin: -16% 0 0 60%;
+		margin: 0;
 		padding: 6%;
 	}
 	.contact-link a {
@@ -703,107 +733,13 @@ h2#email a:hover {
 	.contact-link:hover {
 		color: rgba(0,184,174,.75);
 	}
-
-
-
-	nav#nav-buttons {
-		margin: 5%;
-		height: 406px;
+	#about-description {
+		width: 95%;
 	}
-	.round-button {
-		width: 100%;
+	#paragraph1 {
+		margin: 2% 0 0 0;
 	}
-	.round-button-about {
-		width: 100%;
-		height: 20%;
-		margin: 0;
-		margin-top: 30%;
-		padding-bottom: 0;
-	    border-radius: 0;
-	    overflow: auto;
-	    background: rgba(0, 0, 0, .5); 
-	}
-	.round-button-about:hover {
-		background: rgba(100, 255, 180, .25);
-	}
-	.round-button-graphic {
-		width: 100%;
-		height: 20%;
-		margin: 0;
-		margin-top: 2%;
-		padding-bottom: 0;
-	    border-radius: 0;
-	    overflow: auto;
-	    background: rgba(0, 0, 0, .5); 
-	}
-	.round-button-graphic:hover {
-		background: rgba(100, 255, 180, .25);
-	}
-	.round-button-paint {
-		width: 100%;
-		height: 20%;
-		margin: 0;
-		margin-top: 2%;
-		padding-bottom: 0;
-	    border-radius: 0;
-	    overflow: auto;
-	    background: rgba(0, 0, 0, .5); 
-	}
-	.round-button-paint:hover {
-		background: rgba(100, 255, 180, .25);
-	}
-	.round-button-resume {
-		width: 100%;
-		height: 20%;
-		margin: 0;
-		margin-top: 2%;
-		padding-bottom: 0;
-	    border-radius: 0;
-	    overflow: auto;
-	    background: rgba(0, 0, 0, .5); 
-	}
-	.round-button-resume:hover {
-		background: rgba(100, 255, 180, .25);
-	}
-	.round-button a {
-	    display: block;
-		float: left;
-		width: 100%;
-		padding-top: 8%;
-	    padding-bottom: 0;
-		line-height: 1em;
-		margin-top: 0;
-		text-align: center;
-		color: #e2eaf3;
-	    font-size: 24px;
-	    font-weight: 300;
-	    text-decoration: none;
-	}
-	aside#contact-button {
-	margin: 7% 0 0 60%;
-	}
-	.contact-link a {
-		text-decoration: none;
-		color: white;
-	}
-	.contact-link {
-		width: 100%;
-		height: 14%;
-		margin: 0;
-		margin-top: 2%;
-		padding-bottom: 0;
-	    border-radius: 0;
-		font-size: 45px;
-		font-weight: 400;
-		line-height: 1.1em;
-		text-align: center;
-		/*padding: 20px;*/
-	}
-	.contact-link:hover {
-		/*color: rgb(177, 200, 182);*/
-		color: rgba(100, 255, 180, .5);
-	}
-} /*END 450px*/
+} /*END 650px*/
 
 
 
