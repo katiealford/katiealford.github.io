@@ -208,13 +208,13 @@ p.padding-top {
 	padding-top: 11px;
 }
 section#about {
-	background: #D3D3D3 url(../images/img_trees.jpg) no-repeat;
+	background: #D3D3D3 url(../images/lake.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 #about-description {
 	margin-left: 30%;
-	margin-top: -12%;
+	margin-top: -14%;
 	width: 61.1%;
 	font-size: 15px;
 	bottom: 8%;
@@ -229,12 +229,13 @@ section#about {
 	margin-left: 6%;
 }
 .paragraph {
+	color: white;
 	display: block;
 	width: 40%;
 	float: left;
 }
 section#graphic {
-	background: #D3D3D3 url(../images/trees3.jpg) no-repeat;
+	background: #D3D3D3 url(../images/sanjuan2.jpg) no-repeat;
 	background-position: bottom;
 	background-size: cover;
 }
@@ -272,7 +273,7 @@ section#graphic {
 	text-decoration: none;
 }
 .portfolio #box1:hover {
-	background: white url(../images/eyes2.png);
+	background: white url(../images/eyesblack.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: block;
@@ -283,7 +284,7 @@ section#graphic {
 	margin-left: 18%;
 }
 .portfolio #box2:hover {
-	background: white url(../images/cecrc2.png);
+	background: white url(../images/cecrcblack.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: block;
@@ -294,8 +295,7 @@ section#graphic {
 	margin-left: 36%;
 }
 .portfolio #box3:hover {
-	/*background: rgba(0, 0, 0, .4);*/
-	background: white url(../images/wheel.png);
+	background: white url(../images/wheel2.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: block;
@@ -439,7 +439,7 @@ section#graphic-page {
 }
 /*END GRAPHIC PAGE*/
 section#paint {
-	background: #B0C4DE url(../images/img_trees3.jpg) no-repeat;
+	background: #B0C4DE url(../images/eelriver2.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
@@ -457,7 +457,7 @@ section#paint {
 }
 /*END PAINT PAGE*/
 section#resume {
-	background: #C0C0C0 url(../images/img_trees2.jpg) no-repeat;
+	background: #C0C0C0 url(../images/img_trees3.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 	height: 900px;
@@ -739,7 +739,7 @@ h2#email a:hover {
 	#paragraph1 {
 		margin: 2% 0 0 0;
 	}
-	section#home {
+	section#graphic {
 		height: 100vh;
 		min-height: 600px;
 	}
@@ -783,6 +783,16 @@ h2#email a:hover {
 		width: 50%;
 		height: 0;
 		padding-bottom: 50%;
+	}
+	section#paint {
+		height: 100vh;
+		min-height: 600px;
+	}
+	.paint {
+		margin: 2% auto auto 3%;
+	}
+	#paintings aside.home {
+		margin-left: 78%;
 	}
 } /*END 650px*/
 
