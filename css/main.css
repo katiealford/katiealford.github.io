@@ -251,7 +251,7 @@ section#graphic {
 	text-decoration: none;
 	position: absolute;
     overflow: hidden;
-    background: rgba(0, 0, 0, .15); 
+    background: rgba(255, 255, 255, .15); 
     bottom: 8%;
     border-radius: none;
     background-position: 50% 100%;
@@ -273,7 +273,7 @@ section#graphic {
 	text-decoration: none;
 }
 .portfolio #box1:hover {
-	background: white url(../images/eyesblack.png);
+	background: rgba(255, 255, 255, .45) url(../images/eyesblack.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: block;
@@ -284,7 +284,7 @@ section#graphic {
 	margin-left: 18%;
 }
 .portfolio #box2:hover {
-	background: white url(../images/cecrcblack.png);
+	background: rgba(255, 255, 255, .45) url(../images/cecrcblack.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: block;
@@ -295,7 +295,7 @@ section#graphic {
 	margin-left: 36%;
 }
 .portfolio #box3:hover {
-	background: white url(../images/wheel2.png);
+	background: rgba(255, 255, 255, .45) url(../images/wheel2.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: block;
