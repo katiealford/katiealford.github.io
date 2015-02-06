@@ -214,10 +214,11 @@ section#about {
 }
 #about-description {
 	margin-left: 30%;
-	margin-top: -14%;
+	margin-top: -12%;
 	width: 61.1%;
 	font-size: 15px;
 	bottom: 8%;
+	line-height: 1.75em;
 }
 #about-description .italic {
 	font-style: italic;
@@ -735,6 +736,7 @@ h2#email a:hover {
 	}
 	#about-description {
 		width: 95%;
+		line-height: 1em;
 	}
 	#paragraph1 {
 		margin: 2% 0 0 0;
