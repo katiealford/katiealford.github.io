@@ -208,7 +208,7 @@ p.padding-top {
 	padding-top: 11px;
 }
 section#about {
-	background: #D3D3D3 url(../images/lake.jpg) no-repeat;
+	background: #D3D3D3 url(../images/about-image.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
@@ -229,7 +229,7 @@ section#about {
 	margin-left: 6%;
 }
 .paragraph {
-	color: white;
+	color: black;
 	display: block;
 	width: 40%;
 	float: left;
@@ -793,6 +793,9 @@ h2#email a:hover {
 	}
 	#paintings aside.home {
 		margin-left: 78%;
+	}
+	section#contact {
+		background-position: 68% center;
 	}
 } /*END 650px*/
 
