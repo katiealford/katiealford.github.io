@@ -213,27 +213,32 @@ section#about {
 	background-position: center center;*/
 }
 #about-description {
-	margin-left: 30%;
-	margin-top: -12%;
-	width: 61.1%;
-	font-size: 15px;
+	margin-left: 29%;
+	margin-top: -14%;
+	width: 64%;
+	font-size: 26px;
 	bottom: 8%;
-	line-height: 1.75em;
+	font-weight: 500;
+	line-height: 2em;
 }
 #about-description .italic {
 	font-style: italic;
 }
-#paragraph1 {
-
-}
-#paragraph2 {
-	margin-left: 6%;
-}
 .paragraph {
 	color: black;
 	display: block;
-	width: 40%;
+	width: 80%;
+	margin-left: 6%;
 	float: left;
+	line-height: 1.85;
+	font-size: 22;
+	font-weight: 600;
+}
+#paragraph1 {
+	width: 98%;
+	font-size: 26;
+	margin-top: 5%;
+	margin-left: -2%;
 }
 section#graphic {
 	/*background: #D3D3D3 url(../images/sanjuan2.jpg) no-repeat;
@@ -242,21 +247,21 @@ section#graphic {
 	background: rgb(0,184,174);
 }
 .portfolio {
-	margin-top: 7%;
+	margin-top: -13%;
 	margin-left: 30%;
-	height: 79.75%;
-	width: 61.1%;
+	height: 37%;
+	width: 62%;
 }
 .portfolio .box {
-	height: 79%;
-	width: 16%;
+	height: 250px;
+	width: 250px;
 	text-decoration: none;
 	position: absolute;
     overflow: hidden;
     background: rgba(255, 255, 255, .15); 
-    bottom: 8%;
+/*    bottom: 8%;*/
     border-radius: none;
-    background-position: 50% 100%;
+    background-position: 5% 100%;
 	-o-transition: background-position .3s ease, background .3s ease;
 	-ms-transition: background-position .3s ease, background .3s ease;
 	-moz-transition: background-position .3s ease, background .3s ease;
@@ -278,31 +283,34 @@ section#graphic {
 	background: rgba(255, 255, 255, .45) url(../images/eyesblack.png);
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: 50% 65%;
 	display: block;
-	height: 79%;
-	width: 16%;
+	height: 250px;
+	width: 250px;
 }
 .portfolio #box2 {
-	margin-left: 18%;
+	margin-left: 20%;
 }
 .portfolio #box2:hover {
 	background: rgba(255, 255, 255, .45) url(../images/cecrcblack.png);
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: 50% 75%;
 	display: block;
-	height: 79%;
-	width: 16%;
+	height: 250px;
+	width: 250px;
 }
 .portfolio #box3 {
-	margin-left: 36%;
+	margin-left: 40%;
 }
 .portfolio #box3:hover {
 	background: rgba(255, 255, 255, .45) url(../images/wheel2.png);
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: 50% 75%;
 	display: block;
-	height: 79%;
-	width: 16%;
+	height: 250px;
+	width: 250px;
 }
 
 /*BEGIN GRAPHIC PAGE*/
@@ -441,10 +449,7 @@ section#graphic-page {
 }
 /*END GRAPHIC PAGE*/
 section#paint {
-	/*background: #B0C4DE url(../images/eelriver2.jpg) no-repeat;
-	background-size: cover;
-	background-position: center center;*/
-
+	height: 1000px;
 }
 .paint {
 	width: 70%;
@@ -452,7 +457,12 @@ section#paint {
 	margin: 2%;
 	margin-left: 10%;
 	float: left;
+	overflow: scroll;
 }
+/*.paint:hover {
+	width: 70%;
+
+}*/
 #paintings {
 	margin-top: -15%;
 	height: 85%;
@@ -604,6 +614,32 @@ h2#email a:hover {
 }
 /*TABLET BREAKPOINT*/
 
+@media only screen and (max-width: 1275px) {
+	.portfolio .box {
+		height: 175px;
+		width: 175px;
+	}
+	.box h1 {
+		font-size: 19px;
+	}
+	.portfolio #box1:hover {
+		height: 175px;
+		width: 175px;
+	}
+	.portfolio #box2:hover {
+		height: 175px;
+		width: 175px;
+	}
+	.portfolio #box3:hover {
+		background: rgba(255, 255, 255, .45) url(../images/wheel3.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: 50% 90%;
+		display: block;
+		height: 175px;
+		width: 175px;
+	}
+}
 @media only screen and (max-width: 1120px) {
 	.sectionTitle {
 		margin-left: 3%;
@@ -645,7 +681,7 @@ h2#email a:hover {
 	}
 }
 
-/*BEGIN MOBILE BREAKPOINT*/
+/*BEGIN MOBILE BREAKPOINTs*/
 
 @media only screen and (max-width: 650px) {
 	section#home {
