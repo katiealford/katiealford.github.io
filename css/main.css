@@ -172,6 +172,14 @@ aside.home {
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
 }
+#site-cred {
+	text-align: center;
+	margin-top: -5%;
+	font-size: 15px;
+	color: rgb(100,120,120);
+	font-weight: 300;
+	text-shadow: 1px 1px 1px black;
+}
 aside#graphics-back-button {
 	text-align: center;
 	position: fixed;
@@ -611,6 +619,14 @@ h2#email a{
 }
 h2#email a:hover {
 	color: rgb(204, 255, 250);
+}
+#site-cred-bottom {
+	text-align: center;
+	margin-top: -5%;
+	font-size: 15px;
+	color: rgb(10,12,12);
+	font-weight: 300;
+	text-shadow: 1px 1px 1px black;
 }
 /*TABLET BREAKPOINT*/
 
