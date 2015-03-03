@@ -822,13 +822,14 @@ h2#email a:hover {
 		padding-bottom: 50%;
 	}
 	.portfolio #box1:hover {
+		background: rgba(255, 255, 255, .45) url(../images/eyesblacksmall.png);
 		margin: auto 0 50% 0;
 		width: 100%;
 		height: 0;
 		padding-bottom: 50%;
 	}
 	.portfolio #box2 {
-		margin: 0;
+		margin: 50% 0 auto auto;
 		width: 50%;
 		height: 0;
 		padding-bottom: 50%;
@@ -840,7 +841,7 @@ h2#email a:hover {
 		padding-bottom: 50%;
 	}
 	.portfolio #box3 {
-		margin: 50% auto 0 0;
+		margin: 50% auto 0 50%;
 		width: 50%;
 		height: 0;
 		padding-bottom: 50%;
