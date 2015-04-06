@@ -323,11 +323,7 @@ section#graphic {
 
 /*BEGIN GRAPHIC PAGE*/
 section#graphic-page {
-/*	background: #FFFFFF url(../images/graphics-background3.jpg) fixed;
-	background-size: cover;
-	background-repeat: no-repeat;*/
 	width: 100%;
-	height: auto;
 	overflow: auto;
 	position: relative;
 }
