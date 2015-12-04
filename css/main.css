@@ -13,7 +13,7 @@ section {
 	box-shadow:0 7px 6px -6px rgba(0,0,0,.5) inset;
 }*/
 section#home {
-	background: #ADD8E6 url(../images/img_hermosa.jpg) no-repeat;
+	background: #ADD8E6 url(../images/rooftop.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
