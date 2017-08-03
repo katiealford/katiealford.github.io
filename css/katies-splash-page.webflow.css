@@ -24,7 +24,7 @@
 
 .body {
   padding-top: 0px;
-  background-image: url('../images/katie2-horz-copy.jpg');
+  background-image: url('../images/katie2-horz-copy_1.jpg');
   background-position: 0px 65px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@
 
 .container {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   padding-left: 0px;
   text-align: center;
 }
@@ -144,6 +144,24 @@
 
 .section-2 {
   display: none;
+}
+
+.link {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container-2 {
+  margin-top: 0px;
+  margin-bottom: 70px;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
