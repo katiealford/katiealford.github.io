@@ -171,8 +171,11 @@ p {
 }
 
 .hollow-button.white {
+  float: none;
   border-color: #fff;
-  color: #fff;
+  background-color: #25ccbf;
+  color: #ecf0f1;
+  text-align: center;
 }
 
 .hollow-button.white:hover {
@@ -383,6 +386,11 @@ p {
 .link-block {
   width: 25%;
   padding: 10px;
+}
+
+.container {
+  margin-top: 48px;
+  text-align: center;
 }
 
 html.w-mod-js *[data-ix="fade-in-bottom-page-loads"] {
